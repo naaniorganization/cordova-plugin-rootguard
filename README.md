@@ -52,7 +52,7 @@ not treated as proof that a device is compromised.
 ### Install the published npm version
 
 ```sh
-cordova plugin add cordova-plugin-rootguard@2.1.0
+cordova plugin add cordova-plugin-rootguard@2.1.1
 ```
 
 To follow the latest compatible published release:
@@ -66,7 +66,7 @@ cordova plugin add cordova-plugin-rootguard
 Use a release tag for reproducible builds:
 
 ```sh
-cordova plugin add https://github.com/Binuka97/cordova-plugin-rootguard.git#v2.1.0
+cordova plugin add https://github.com/Binuka97/cordova-plugin-rootguard.git#v2.1.1
 ```
 
 ### Install from a local clone
@@ -80,7 +80,7 @@ cordova plugin add ./cordova-plugin-rootguard
 
 ```sh
 cordova plugin remove cordova-plugin-rootguard
-cordova plugin add cordova-plugin-rootguard@2.1.0
+cordova plugin add cordova-plugin-rootguard@2.1.1
 ```
 
 After adding or upgrading the plugin, rebuild the native platforms:
